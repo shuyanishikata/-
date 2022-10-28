@@ -1,0 +1,436 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html{
+font-family:"BIZ UDPGothic";
+}
+
+.タイトル画像{
+    width: 200px;
+    height: auto;
+}
+
+.header-wrapper{
+    background-color: #a6a496;
+    display: flex;
+    position:fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+
+.nav-list{
+    font-size: 15px;
+    display: flex;
+    text-transform:uppercase;
+}
+
+.nav-item{
+    margin:50px 25px;
+}
+
+.nav-item>a{
+    color: #222222;
+}
+
+.nav-item:hover{
+    font-weight: bold;
+    color:#ff6347;
+
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.チーアカ{
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffe19c;
+    padding:130px 0 5px;
+    color: #7a660e;
+}
+
+.セカチー{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffe19c;
+    padding:5px 0 15px  ;
+    color: #7a660e;
+}
+
+
+
+
+
+.section-title{
+    color:#ffd61a;
+    font-weight:bold;
+    font-size: 24px;
+    text-transform:uppercase;
+    text-align: center;
+    margin:0 0 30px;
+}
+.jap-title{
+    font-size:18px;
+    margin:0 0 60px;
+    text-align: center;
+}
+
+p{
+    font-size:16px;
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+}
+.photo{
+    width: 25%;
+    height: auto;
+    margin: 0 0 60px;
+}
+
+.about-wrapper{
+    text-align:center;
+}
+
+.course-wrapper{
+    text-align:center;
+    margin: 60px 0 0;
+}
+
+.news-wrapper{
+    text-align: center;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.access-wrapper{
+    text-align: center;
+    margin: 60px 0 0;
+}
+
+.contact-wrapper{
+    text-align: center;
+}
+
+.卒業生の声タイトル{
+    margin: 20px 0;
+    text-decoration:underline;/*下線を引く*/
+    text-decoration-style:wavy;/*下線を波線で表示*/
+}
+
+.卒業生の声{
+    margin: 20px auto;
+    text-align: center;
+    line-height:10px;
+}
+
+.button{
+    display: block;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    margin: 60px auto;
+    padding: auto;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffd61a;
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border:none;
+    cursor: pointer;
+    text-decoration:none;
+    line-height: 60px;
+}
+
+.button:hover{
+    display: block;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    margin: 60px auto;
+    padding: auto;
+    color: rgb(104, 7, 7);
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #ff1aba;
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border:none;
+    cursor: pointer;
+}
+
+.button:focus{
+    display: block;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    margin: 60px auto;
+    padding: auto;
+    color: rgb(104, 7, 7);
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #ff1a6a;
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border:none;
+    cursor: pointer;
+}
+
+p{
+    line-height: 2;
+}
+
+.離すよ40px{
+    margin: 0 0 40px;
+}
+
+.離すよ80px{
+    margin: 0 0 80px;
+}
+
+.news項目{
+    max-width: 300px;
+}
+
+.news画像{
+    margin:0 0 30px;
+}
+.news日付{
+    margin: 0 0 24px;
+}
+.news説明{
+    text-align: left;
+}
+
+.news__item{
+    margin: 0 5px 0;
+    width: 33.333%;
+}
+
+
+.news達{
+    display: flex;
+    margin:0 0 60px;
+}
+
+/*****ここからAccess*****/
+.twitter-tweet{
+    margin: 0 auto 20px;
+}
+
+.ツイート横並び{
+    display: flex;
+}
+
+
+.この人たちがチーズ職人{
+    background-color: rgb(224, 210, 6);
+}
+
+.この人たちがチーズ職人:hover{
+    font-weight: bold;
+    color:#ff1a6a;
+    font-size: 150%;
+}
+
+
+/*****ここまでからProfile*****/
+
+/*****ここからAccess*****/
+.会社情報の表{
+    margin: 60px auto;
+}
+
+.表の左側{
+    text-align: left;
+}
+
+.表の右側{
+    text-align: left;
+}
+
+table td{
+    padding : 15px 15px;
+}
+
+.表オレンジ{
+    background-color: #ffe19c;
+}
+
+.表黄色{
+    background-color: #fff7b3;
+}
+
+
+/*****ここまでAccess*****/
+
+
+/*****ここからForm*****/
+.フォームの表{
+    margin:70px auto 30px;
+    border-spacing:none;
+    border:none;
+    border-bottom:  #707070 1px solid;;
+
+}
+
+.フォーム左{
+    text-align: left;
+    vertical-align: top;
+    margin: 8px 64px 8px 16px;
+    border:none;
+    border-top: #707070 1px solid;
+    border-right: #707070 1px solid;
+}
+
+.フォーム右{
+    text-align: left;
+    margin: 8px 64px 8px 8px;
+    border:none;
+    border-top: #707070 1px solid;
+}
+
+.薄黄色{
+    background-color: #fcf6c2;
+}
+
+.名前カナメアド{
+    width: 328px;
+    height: 36px;
+    border: #707070 1 solid;
+}
+
+.名前カナメアド:hover{
+    background-color: #ffd61a;
+    border: red 1 solid;
+}
+
+.名前カナメアド:focus{
+    background-color: #ffe19c;
+    border: red 1 solid;
+}
+
+.選択欄{
+    width: 328px;
+    height: 36px;
+    border: #707070 1 solid;
+}
+
+.選択欄:hover{
+    background-color: #ffd61a;
+    border: red 1 solid;
+}
+
+.選択欄:focus{
+    background-color: #ffe19c;
+    border: red 1 solid;
+}
+
+.これを選ばせたい１{
+    color: red;
+    font-weight: bold;
+}
+
+.これを選ばせたい２{
+    color: blue;
+    font-weight: bold;
+}
+
+.志望動機の右側{
+    font-weight: bold;
+    line-height: 200%;
+}
+
+.checkbox{
+    border: #707070 1 solid;
+}
+
+[type="checkbox"] {
+    cursor: pointer;
+}
+
+.ポインター{
+    cursor: pointer;
+  }
+
+.詳細入力{
+    resize: none;
+    width: 328px;
+    height: 100px;
+    border: #707070 1 solid;
+}
+
+.詳細入力:hover{
+    background-color: #ffd61a;
+    border: red 1 solid;
+}
+
+.詳細入力:focus{
+    background-color: #ffe19c;
+    border: red 1 solid;
+}
+/*****ここまでForm*****/
+
+
+.copyrights{
+    color: white;
+}
+
+.footer{
+    padding:30px;
+    background-color: #707070;
+    text-align: center;
+}
+
+.iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* アスペクト比16:9の場合 */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 2rem; /* YouTubeの下に余白をつける */
+}
+.iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*タイトルの動き*/
+
+.flowing {
+	width: 0;
+	margin: 0;
+	font-size: 3vw;
+	font-weight: bold;
+	color: #ff6347;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: flowing-anim 3s forwards linear;
+}
+
+
+
+@keyframes flowing-anim {
+ 0%{
+     width: 0%;
+   }
+100%{
+     width: 100%;
+   }
+}
+
